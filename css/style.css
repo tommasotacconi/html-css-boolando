@@ -1,0 +1,33 @@
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+header {
+    min-height: var(--mh-xxl);
+}
+
+nav {
+    line-height: 30px;
+    background-color: aquamarine;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav > div{
+    padding: var(--nav-pd)
+}
+
+span {
+    margin: 0 5px;
+}
+
+figure {
+    width: 40%;
+    background-color: olivedrab;
+}
+
+/* Utilities */
