@@ -11,6 +11,7 @@ header {
     position: fixed;
     left: 0px;
     top: 0px;
+    z-index: 1;
     width: 100%;  
 }
 
@@ -57,6 +58,7 @@ main .container-lg {
 
 .card {
     min-height: var(--mh-xxl);
+    position: relative;
 }
 
 .type-clothes {
@@ -72,4 +74,46 @@ main .container-lg {
 .list-price {
     margin-left: 10px;
     text-decoration: line-through;
+}
+
+.labels {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+}
+
+.labels .discount,
+.labels .sustainability {
+    color: white;
+    font-weight: 600;
+    padding: 4px 6px;
+    
+}
+
+.discount{
+    background-color: orangered;
+}
+
+.sustainability {
+    background-color: green;
+}
+
+.favourite {
+    font-size: 30px;
+    padding: 5px 10px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.card img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.card img:nth-child(2):hover {
+    opacity: 1;
 }
