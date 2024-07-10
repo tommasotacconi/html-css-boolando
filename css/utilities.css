@@ -45,12 +45,26 @@
     column-gap: 10px
 }
 
+.flex-row-align-center {
+    display: flex;
+    align-items: center;
+    /* gap: var(--space); */
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
 
 .align-items-center {
     align-items: center;
+}
+
+.flex-item {
+    flex-basis: 200px;
 }
 
 .bdColor-paglia {
