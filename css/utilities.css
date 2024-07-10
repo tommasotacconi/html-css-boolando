@@ -18,7 +18,7 @@
     max-width: 900px;
     margin: 0 auto;
     min-height: var(--mh-sm);
-    border: 3px dashed burlywood;
+    /* border: 3px dashed burlywood; */
 }
 
 .container-xl {
@@ -81,4 +81,8 @@
 
 .bdColor-cioccolato {
     background-color: chocolate
+}
+
+.bdColor-black {
+    background-color: black;
 }

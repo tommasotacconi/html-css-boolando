@@ -23,6 +23,7 @@ header {
 
 footer {
     padding: 30px;
+    color: white;
 }
 
 /* nav {
@@ -62,29 +63,29 @@ main .container-lg {
 
 .row {
     min-height: 350px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 .column {
     flex-basis: calc(100% / 3 - 20px / 3);
     min-width: 280px;
     margin-bottom: 40px;
-    border: 1px dashed blueviolet;
 }
 
 .card {
     min-height: var(--mh-xxl);
     position: relative;
+    font-size: 11px;
 }
 
 .type-clothes {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .marked-down{
     font-weight: 600;
-    color: red;
+    color: orangered;
 }
 
 .list-price {
@@ -96,6 +97,7 @@ main .container-lg {
     position: absolute;
     left: 0;
     bottom: 120px;
+    font-size: 10px;
 }
 
 .labels .discount,
