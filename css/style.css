@@ -47,17 +47,18 @@ img {
 
 ul {
     list-style-type: none;
-    li {
-        margin: 0 5px;
-    }
+    
     a {
         text-decoration: none;
         color: white;
+        margin-right: 5px;
+    }
+
+    li:last-child a {
+        margin-right: 0;
     }
     
 }
-
-a
 
 /* Utilities */
 main .container-lg {
@@ -144,4 +145,19 @@ main .container-lg {
 
 .card img:nth-child(2):has(~ .labels:hover) {
     opacity: 1;
+}
+
+.nome-società, .scritta-trovaci{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.aspetti-legali a {
+    margin-right: 10px
+}
+
+.fa-brands {
+    font-size: 26px;
+    margin-right: 10px;
+
 }
